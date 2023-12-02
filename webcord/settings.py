@@ -14,9 +14,6 @@ import os
 from datetime import timedelta
 from pathlib import Path
 
-from dotenv import load_dotenv
-
-load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -26,12 +23,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get("SECRET_KEY")
-
+SECRET_KEY = "django-insecure-h9ai$%$@v+rc!@6=6u3@smhzy-+hj^*7vbt_iknw*5gxoa6*35"
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get("DEBUG")
+DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['16.170.220.245','127.0.0.1']
 
 
 # Application definition
@@ -105,9 +101,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME':  'Webcord',
-        'USER': 'postgres',
+        'USER': 'webcorduser',
         'PASSWORD': 'Tom@2002',
         'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
@@ -154,11 +151,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = 'static/'
-STATIC_FILES_DIRS = [
-    os.path.join(BASE_DIR, 'build/static')
-]
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_URL = '/static/'
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
 MEDIA_URL = 'media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
@@ -243,10 +238,11 @@ FILE_UPLOAD_PERMISSIONS = 0o640
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "https://main.dqopvnoq6l57e.amplifyapp.com/"
 
 ]
 
-FRONTEND_URL = 'http://localhost:3000'
+FRONTEND_URL = 'https://main.dqopvnoq6l57e.amplifyapp.com/'
 
 AUTH_USER_MODEL = 'accounts.UserAccount'
 
