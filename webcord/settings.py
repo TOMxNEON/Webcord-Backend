@@ -235,6 +235,7 @@ SPECTACULAR_SETTINGS = {
 
 FILE_UPLOAD_PERMISSIONS = 0o640
 
+CSRF_TRUSTED_ORIGINS = ['https://www.webcord.site']
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
