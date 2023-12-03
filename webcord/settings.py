@@ -100,7 +100,7 @@ ASGI_APPLICATION = 'webcord.asgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME':  'Webcord',
+        'NAME':  'webcord',
         'USER': 'webcorduser',
         'PASSWORD': 'Tom@2002',
         'HOST': 'localhost',
