@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure-h9ai$%$@v+rc!@6=6u3@smhzy-+hj^*7vbt_iknw*5gxoa6*35
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['16.170.220.245','.webcord.site']
+ALLOWED_HOSTS = ['16.170.220.245','webcord.site', 'www.webcord.site']
 
 
 # Application definition
