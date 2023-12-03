@@ -238,11 +238,11 @@ FILE_UPLOAD_PERMISSIONS = 0o640
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "https://main.d1fales2f7jhva.amplifyapp.com"
+    "https://main.d2wd1fwbsf3pf6.amplifyapp.com"
 
 ]
 
-FRONTEND_URL = 'https://main.d1fales2f7jhva.amplifyapp.com/'
+FRONTEND_URL = 'https://main.d2wd1fwbsf3pf6.amplifyapp.com/'
 
 AUTH_USER_MODEL = 'accounts.UserAccount'
 
