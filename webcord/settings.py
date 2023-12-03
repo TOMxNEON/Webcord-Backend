@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure-h9ai$%$@v+rc!@6=6u3@smhzy-+hj^*7vbt_iknw*5gxoa6*35
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['16.170.220.245','webcord.site', 'www.webcord.site']
+ALLOWED_HOSTS = ['16.170.220.245','webcord.site', 'www.webcord.site', 'main.d2wd1fwbsf3pf6.amplifyapp.com']
 
 
 # Application definition
@@ -231,7 +231,7 @@ SPECTACULAR_SETTINGS = {
     'SERVE_INCLUDE_SCHEMA': False,
 }
 
-CORS_ALLOW_ALL_ORIGINS = True
+# CORS_ALLOW_ALL_ORIGINS = True
 
 FILE_UPLOAD_PERMISSIONS = 0o640
 
