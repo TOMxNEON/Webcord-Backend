@@ -238,7 +238,8 @@ FILE_UPLOAD_PERMISSIONS = 0o640
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "https://main.d2wd1fwbsf3pf6.amplifyapp.com"
+    "https://main.d2wd1fwbsf3pf6.amplifyapp.com",
+    "https://www.webcord.site"
 
 ]
 
