@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure-h9ai$%$@v+rc!@6=6u3@smhzy-+hj^*7vbt_iknw*5gxoa6*35
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['16.170.220.245','127.0.0.1']
+ALLOWED_HOSTS = ['16.170.220.245','.webcord.site']
 
 
 # Application definition
@@ -238,11 +238,11 @@ FILE_UPLOAD_PERMISSIONS = 0o640
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "https://main.dqopvnoq6l57e.amplifyapp.com/"
+    "https://main.d1fales2f7jhva.amplifyapp.com"
 
 ]
 
-FRONTEND_URL = 'https://main.dqopvnoq6l57e.amplifyapp.com/'
+FRONTEND_URL = 'https://main.d1fales2f7jhva.amplifyapp.com/'
 
 AUTH_USER_MODEL = 'accounts.UserAccount'
 
