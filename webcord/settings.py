@@ -244,6 +244,14 @@ CORS_ALLOWED_ORIGINS = [
 
 ]
 
+CORS_ALLOW_HEADERS = [
+    'access-control-allow-origin',
+    'access-control-allow-credentials',
+    'content-type',
+    'authorization',
+]
+
+
 FRONTEND_URL = 'https://main.d2wd1fwbsf3pf6.amplifyapp.com/'
 
 AUTH_USER_MODEL = 'accounts.UserAccount'
