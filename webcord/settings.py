@@ -242,7 +242,8 @@ CSRF_TRUSTED_ORIGINS = ['https://www.webcord.site']
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "https://main.d2wd1fwbsf3pf6.amplifyapp.com",
-    "https://www.webcord.site"
+    "https://www.webcord.site",
+    "http://13.234.120.12"
 
 ]
 
