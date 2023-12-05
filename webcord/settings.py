@@ -27,7 +27,8 @@ SECRET_KEY = "django-insecure-h9ai$%$@v+rc!@6=6u3@smhzy-+hj^*7vbt_iknw*5gxoa6*35
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['16.170.220.245','webcord.site', 'www.webcord.site', 'main.d2wd1fwbsf3pf6.amplifyapp.com']
+ALLOWED_HOSTS = ['3.108.185.15', 'webcord.site',
+                 'www.webcord.site', 'main.d2wd1fwbsf3pf6.amplifyapp.com']
 
 
 # Application definition
@@ -46,7 +47,7 @@ INSTALLED_APPS = [
     'djoser',
     'rest_framework_simplejwt',
     'rest_framework_simplejwt.token_blacklist',
-    
+
     'drf_spectacular',
 
     'channels',
@@ -280,7 +281,6 @@ DJOSER = {
 }
 
 
-
 # CHANNEL_LAYERS = {
 #     "default": {
 #         "BACKEND": "channels.layers.InMemoryChannelLayer"
@@ -295,5 +295,3 @@ CHANNEL_LAYERS = {
         },
     },
 }
-
-
