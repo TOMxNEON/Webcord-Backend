@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure-h9ai$%$@v+rc!@6=6u3@smhzy-+hj^*7vbt_iknw*5gxoa6*35
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['3.108.185.15', 'webcord.site',
+ALLOWED_HOSTS = ['13.234.120.12', 'webcord.site',
                  'www.webcord.site', 'main.d2wd1fwbsf3pf6.amplifyapp.com']
 
 
