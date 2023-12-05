@@ -11,7 +11,6 @@ class UserSerializer(serializers.ModelSerializer):
         model = UserAccount
         fields = ['id', 'username', 'display_name', 'avatar']
 
-
     def to_representation(self, instance):
         data = super().to_representation(instance)
         if 'avatar' in data and data['avatar']:
